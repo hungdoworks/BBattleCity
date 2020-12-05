@@ -177,6 +177,13 @@ public class Player : TankBaseBehavior
             audioPlayer.UnPause();
     }
 
+    public void Reset()
+    {
+        if (!gameObject.activeSelf)
+            gameObject.SetActive(true);
+
+        lookDirection.Set(0, 1);
+    }
 
     // For demo only
     void CreatePredefinedLevelStats()

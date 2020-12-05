@@ -553,6 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8fbab007cba10346a3ca88a48f0f84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  touchToPlayTextAnim: {fileID: 48866282}
 --- !u!4 &1451450298
 Transform:
   m_ObjectHideFlags: 0

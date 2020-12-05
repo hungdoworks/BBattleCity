@@ -145,6 +145,8 @@ public class TankBaseBehavior : MonoBehaviour
 
     private void Dead()
     {
+        SpawnManager.Instance.SpawnExplosiveAt(transform.position);
+
         gameObject.SetActive(false);
 
         if (OnDestroyed != null)

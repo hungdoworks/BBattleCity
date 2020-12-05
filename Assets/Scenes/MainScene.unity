@@ -4055,6 +4055,8 @@ MonoBehaviour:
   - {fileID: 669643929}
   - {fileID: 2084010432}
   - {fileID: 1326940342}
+  explosive1: {fileID: 2205943697076357620, guid: 66a381724908810439f5d2a53f185762,
+    type: 3}
   maxEnemies: 3
   enemySpawnDelay: 5
   maxPowerUpInStage: 6
